@@ -11,24 +11,25 @@ p {
 }
 
 /* all site formatting  
-    font styling below, change link in html if needed*/
+    font styling below, change link in html if needed */
 
 /* to whom it may concern all colors can work with either names(yellow)
 or for the more art minded to rgb(63, 209, 219) 
 or to hex colors #3FD1DB */
 
- body{
+body {
   font-family: 'Nova Flat';
- }
- pre {
-   font-size: 25px;
- }
- h2 {
-   color: powderblue;
- }
- div#wrapper {
-  width:940px;
-  background-image:url(../../background.jpg); 
+
+}
+pre {
+  font-size: 25px;
+}
+h2 {
+  color: powderblue;
+}
+div#wrapper {
+  width: 940px;
+  background-image: url(../../background.jpg);
   margin: 20px auto;
 }
 div#inner-header {
@@ -56,7 +57,7 @@ nav li
 {
   list-style-type: none;
   float: left;
-  width: 25%;
+  width: 33%;
   text-align: center;
 }
 nav a {
@@ -89,12 +90,12 @@ aside img {
   margin: 0 auto;
 }
 /* Blanket row formatting */
-.row{
+.row {
   height: 400px;
   clear: both;
   float: left;
 }
-div#white{
+div#white {
   background: white;
   width: 40px;
   height: 100%;
@@ -153,7 +154,7 @@ div#section_2 p {
 }
 
 /* bottom */
-            
+
 footer {
   height: 50px;
   clear: both;
@@ -167,11 +168,17 @@ footer li {
   line-height: 50px;
   padding-left: 10px;
 }
-footer a { 
+footer a {
   text-decoration: none;
   color: white;
 }
 img {
   max-width: 100%;
   display: block;
+}
+img#thx{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
