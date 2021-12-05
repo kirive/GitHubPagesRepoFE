@@ -7,18 +7,29 @@ p {
   width: 30%;
   margin: 0 auto;
   text-align: center;
-  color: rgb(10, 204, 204);
+  color: rgb(63, 209, 219);
 }
 
-    /* all site formatting  */
+/* all site formatting  
+    font styling below, change link in html if needed */
 
- body{/* site background setting */
-   background-color: antiquewhite;
-    /* background-image:url(); */ 
-   font-family: 'Times New Roman', Times, serif;
- }
- div#wrapper {
-  width:940px;
+/* to whom it may concern all colors can work with either names(yellow)
+or for the more art minded to rgb(63, 209, 219) 
+or to hex colors #3FD1DB */
+
+body {
+  font-family: 'Nova Flat';
+
+}
+pre {
+  font-size: 25px;
+}
+h2 {
+  color: powderblue;
+}
+div#wrapper {
+  width: 940px;
+  background-image: url(../../background.jpg);
   margin: 20px auto;
 }
 div#inner-header {
@@ -28,7 +39,6 @@ div#inner-header {
 .inner-header img 
 {
   width: 75px;
-  background: seagreen;
 }
 
  /* navagation tabs setting below */
@@ -37,19 +47,17 @@ header
   width: 100%;
   top: 0%;
   left: 0%;
-  background: rgb(255,255,255,95%);
 }   
 nav
 {
   height: 50px;
   line-height: 50px;
-  background:rgb(98, 165, 219);
 }
 nav li 
 {
   list-style-type: none;
   float: left;
-  width: 25%;
+  width: 33%;
   text-align: center;
 }
 nav a {
@@ -64,18 +72,16 @@ nav a:hover {
 /* middle */
 
 main {
-  width: 428px;
-  background: rgb(49, 11, 85);
+  width: 403px;
   margin-top: 16px;
   float: left;
   padding: 10px;
   height: 100%;
 }
 aside {
-  width: 472px;
-  background: rgb(84, 81, 241);
+  width: 447px;
   margin-top: 16px;
-  float: right;
+  float: left;
   padding: 10px;
   height: 100%;
 }
@@ -84,8 +90,16 @@ aside img {
   margin: 0 auto;
 }
 /* Blanket row formatting */
-.row{
+.row {
   height: 400px;
+  clear: both;
+  float: left;
+}
+div#white {
+  background: white;
+  width: 40px;
+  height: 100%;
+  float: left;
 }
 .blue {
   color: rgb(63, 209, 219);
@@ -97,49 +111,52 @@ aside img {
 /* specific row formatting */
 
 div#section_2 {
-  width: 430px;
+  width: 405px;
   float: right;
-  clear: right;
-  background: rgb(49, 11, 85);
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
   padding: 10px;
   height: 100%;
 }
 div#section_3 {
-  width: 470px;
+  width: 445px;
   float: left;
-  clear: left;
-  background: rgb(84, 81, 241);
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
   padding: 10px;
   height: 100%;
 }
 div#section_2r {
-  width: 428px;
+  width: 403px;
   float: left;
-  clear: left;
-  background: rgb(49, 11, 85);
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
   padding: 10px;
   height: 100%;
 }
 div#section_3r {
-  width: 472px;
+  width: 447px;
   float: right;
-  clear: right;
-  background: rgb(84, 81, 241);
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
   padding: 10px;
   height: 100%;
 }
 div#section_2 p {
-  width: 328px
+  width: 328px;
   margin: 0 auto;
   text-align: center;
   color: rgb(11, 199, 199);
 }
 
 /* bottom */
-            
+
 footer {
   height: 50px;
-  background: rgb(70, 190, 160);
   clear: both;
   color: white;
 }
@@ -151,7 +168,7 @@ footer li {
   line-height: 50px;
   padding-left: 10px;
 }
-footer a { 
+footer a {
   text-decoration: none;
   color: white;
 }
@@ -159,5 +176,9 @@ img {
   max-width: 100%;
   display: block;
 }
-
-/* testing for super lint */
+img#thx{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
